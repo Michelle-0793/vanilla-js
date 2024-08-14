@@ -1,7 +1,15 @@
-class Contador {
-  // Inserte el código aquí
+class contador{
+  constructor() {
+    this.valor = 0
+  }
+
+siguiente (){
+  return this.valor++
+}
+  
+
 }
 
-// Inserte el código aquí
 
-export { instancia }
+let instancia = new contador()
+export { contador, instancia }

@@ -1,8 +1,9 @@
 let contador = {
   valor: 0,
-  siguiente: function () {
-    // Inserte el código aquí
+   siguiente: function () {
+    return this.valor++
   },
+
 };
 
 export { contador }
